@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
-class App extends Component {
-  render() {
+const App = () => {
     return(
       <>
-      <div>This is a test react application</div>
-      <p>helllo</p>
+        <div>React from scratch</div>
       </>
     )
-  }
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))

@@ -10,7 +10,8 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
